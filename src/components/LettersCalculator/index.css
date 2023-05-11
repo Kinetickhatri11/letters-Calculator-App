@@ -1,0 +1,48 @@
+/* Write your code here. */
+.background-container {
+  height: 100vh;
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  display: flex;
+  flex: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-left: 20px;
+  align-items: flex-start;
+  justify-content: center;
+  width: 30vw;
+}
+.heading {
+  font-family: 'Roboto';
+  color: white;
+  font-size: 48px;
+}
+.image {
+  height: 60vh;
+}
+.about {
+  color: white;
+}
+.input-box {
+  background-color: transparent;
+  outline-width: 2px;
+  border: 2px solid white;
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+}
+.count {
+  background-color: white;
+  color: #219a6f;
+  padding: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  border-radius: 8px;
+}
